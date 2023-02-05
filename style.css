@@ -3,8 +3,9 @@ body {
     font-family: sans-serif;
 }
 
-.food * {
-    margin-left: 20px;
+.food *,
+.navbar * {
+    margin-left: 25px;
 }
 
 .navbar {
@@ -13,10 +14,16 @@ body {
 
 }
 
+.navbar__link {
+    text-decoration: none;
+}
+
 .navbar__home {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
     color: hsl(0 0% 100%);
     text-decoration: none;
+    padding-bottom: 5px;
 }
 
 .food {
@@ -26,7 +33,7 @@ body {
 
 .food__title {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .food__image {
