@@ -4,7 +4,8 @@ body {
 }
 
 .food *,
-.navbar * {
+.navbar *,
+.info h3 {
     margin-left: 25px;
 }
 
@@ -46,4 +47,16 @@ body {
 .food__description {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+}
+
+.info {
+    background-color: hsl(17, 100%, 50%);
+    border: hsl(30, 100%, 0%) solid 5px;
+    border-top: none;
+
+}
+
+.info__title {
+    margin-top: 0px;
+    padding-top: 20px;
 }
