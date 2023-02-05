@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 0%);
+    padding: 1px 1px 0px 1px;
+    border-bottom: 3px rgb(221, 82, 27) solid;
+}
+
+.navbar__home {
+    margin-bottom: 5px;
+    color: hsl(0 0% 100%);
+    text-decoration: none;
+}
