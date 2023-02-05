@@ -1,15 +1,42 @@
 body {
-    margin: 0px;
+    margin: 0px 5px 0px 0px;
+    font-family: sans-serif;
+}
+
+.food * {
+    margin-left: 20px;
 }
 
 .navbar {
     background-color: hsl(0, 0%, 0%);
     padding: 1px 1px 0px 1px;
-    border-bottom: 3px rgb(221, 82, 27) solid;
+
 }
 
 .navbar__home {
     margin-bottom: 5px;
     color: hsl(0 0% 100%);
     text-decoration: none;
+}
+
+.food {
+    background-color: hsl(17, 100%, 50%);
+    border: 5px hsl(30, 100%, 0%) solid;
+}
+
+.food__title {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.food__image {
+    width: 400px;
+    height: auto;
+    text-align: center;
+
+}
+
+.food__description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
