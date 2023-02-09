@@ -40,7 +40,8 @@ body {
 .food__image {
     width: 400px;
     height: auto;
-    text-align: center;
+    margin: 0 auto;
+    display: block;
 
 }
 
