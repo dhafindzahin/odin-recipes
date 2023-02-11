@@ -3,7 +3,6 @@ body {
     font-family: sans-serif;
 }
 
-.food *,
 .navbar *,
 .info h3 {
     margin-left: 25px;
@@ -31,6 +30,7 @@ body {
 .food {
     background-color: hsl(17, 100%, 50%);
     border: 5px hsl(30, 100%, 0%) solid;
+    height: 300px;
 }
 
 .food__title {
@@ -39,16 +39,17 @@ body {
 }
 
 .food__image {
-    width: 400px;
-    height: auto;
-    margin: 0 auto;
+    width: auto;
+    height: 290px;
     display: block;
-
+    float: left;
+    padding: 5px;
 }
 
 .food__description {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    padding: 5px;
 }
 
 .info {
