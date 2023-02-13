@@ -20,12 +20,16 @@
 }
 
 .navbar__link {
-    padding: 5px;
+    padding: 10px;
     color: hsl(0 0% 100%);
     display: inline-block;
     text-decoration: none;
     font-weight: 500;
     margin-right: 10px;
+}
+
+.navbar__link:hover {
+    font-weight: 501;
 }
 
 .food {
