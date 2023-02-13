@@ -6,7 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .nav-container {
     width: 100%;
     background-color: black;
@@ -35,6 +34,47 @@ body {
 
 .nav__link.food-link {
     margin-left: 20px;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase__link {
+    text-decoration: none;
+    color: white;
+}
+
+.showcase__food {
+    margin: 20px 0;
+    background-color: hsl(30, 100%, 10%);
+    width: 90%;
+    border-radius: 1%;
+    border: hsl(5 70% 50%) 5px solid;
+    color: white;
+}
+
+.showcase__info {
+    display: flex;
+
+}
+
+.showcase__title {
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.showcase__info {
+    display: flex;
+}
+
+.showcase__image {
+    width: 300px;
+    padding: 20px;
+    border-radius: 50%;
 }
 
 .food {
