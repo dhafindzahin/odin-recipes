@@ -30,6 +30,7 @@
 
 .navbar__link:hover {
     font-weight: 501;
+    text-decoration: underline;
 }
 
 .food {
